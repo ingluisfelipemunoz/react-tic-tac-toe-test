@@ -40,7 +40,7 @@ export default function Game() {
           winner={winner}
         />
       </div>
-      <div class="game-info">
+      <div className="game-info">
         <ol>{moves}</ol>
       </div>
     </div>
