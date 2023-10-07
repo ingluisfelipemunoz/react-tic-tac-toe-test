@@ -19,6 +19,7 @@ export default function Game() {
     setWinner(x);
   }
   function jumpTo(nextMove) {
+    setWinner(null);
     setCurrentMove(nextMove);
     setXIsNext(nextMove % 2 === 0);
   }
